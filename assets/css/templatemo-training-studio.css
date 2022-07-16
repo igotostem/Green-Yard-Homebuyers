@@ -203,7 +203,7 @@ header
 
 .background-header {
   background: rgba(250,250,250,0.99) !important;
-  height: 80px!important;
+  height: 10%!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -238,7 +238,7 @@ header
   left: 0px;
   right: 0px;
   z-index: 100;
-  height: 80px;
+  height: 10%;
   background: rgba(250,250,250,0.1);
   -webkit-transition: all .5s ease 0s;
   -moz-transition: all .5s ease 0s;
@@ -252,7 +252,7 @@ header
 }
 
 .header-area .main-nav .logo {
-  line-height: 80px;
+  line-height: 250%;
   color: #fff;
   font-size: 32px;
   font-weight: 800;
@@ -298,7 +298,7 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  height: 40px;
+  height: 0px;
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
@@ -475,6 +475,7 @@ header
 
 @media (max-width: 767px) {
   .header-area .main-nav .logo {
+	line-height: 100%;
     color: #1e1e1e;
   }
   .header-area.header-sticky .nav li a:hover,
@@ -621,7 +622,7 @@ banner
     background-color: rgba(35,45,57,0.8);
     top: 0;
     left: 0;
-    bottom: 7px;
+    bottom: 0px;
     width: 100%;
 }
 
@@ -644,8 +645,8 @@ banner
 }
 
 .main-banner .caption h2 {
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 10%;
+  margin-bottom: 1%;
   font-size: 84px;
   text-transform: uppercase;
   font-weight: 800;
@@ -657,6 +658,15 @@ banner
   font-style: normal;
   color: #478551;
   font-weight: 900;
+}
+
+@media (max-width: 992px) {
+  .main-banner .caption h2 em {
+    font-size: 50px;
+  }
+  .main-banner .caption {
+	top: 60%;
+  }
 }
 
 
@@ -893,24 +903,24 @@ schedule
 #schedule table {
   width: 100%;
   text-align: center;
-  border: 1px solid #fff;
+  border: 1px solid #60A96C;
 }
 
 #schedule table tbody {
-  border-top: 1px solid #fff; 
+  border-top: 1px solid #60A96C; 
 }
 
 #schedule table tbody tr {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #60A96C;
 }
 
 #schedule table tbody tr td {
-  border-right: 1px solid #fff;
+  border-right: 1px solid #60A96C;
   height: 100px;
 }
 
 #schedule table tr td {
-  color: #fff;
+  color: #000000;
   font-size: 13px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1045,7 +1055,7 @@ contact
 */
 
 #contact-us {
-  margin-top: 140px;
+  margin-top: 0;
 }
 
 #contact-us .container-fluid .col-lg-6 {
@@ -1058,6 +1068,8 @@ contact
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  transform: translate(50%, 0%);
+
 }
 
 #contact-us .contact-form #contact {
@@ -1259,7 +1271,7 @@ responsive
 @media (max-width: 992px) {
 
   .main-banner .caption h2 {
-    font-size: 64px;
+    font-size: 50px;
   }
   #features {
     margin-bottom: 110px;
