@@ -120,12 +120,12 @@ body {
 }
 
 ::selection {
-  background: #478551;
+  background: #28285B;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #478551;
+  background: #28285B;
   color: #fff;
 }
 
@@ -163,7 +163,7 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #478551;
+  color: #28285B;
 }
 
 .section-heading img {
@@ -182,7 +182,7 @@ body {
   display: inline-block;
   font-size: 15px;
   padding: 12px 20px;
-  background-color: #478551;
+  background-color: #28285B;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -225,11 +225,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #478551!important;
+  color: #28285B!important;
 }
 
 .background-header .nav li a.active {
-  color: #478551!important;
+  color: #28285B!important;
 }
 
 .header-area {
@@ -266,7 +266,7 @@ header
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #478551;
+  color: #28285B;
   font-weight: 900;
 }
 
@@ -312,7 +312,7 @@ header
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: #478551;
+  background-color: #28285B;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -330,13 +330,13 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #478551!important;
+  color: #28285B!important;
   opacity: 1;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #478551!important;
+  color: #28285B!important;
   opacity: 1;
 }
 
@@ -460,7 +460,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #478551;
+  color: #28285B;
 }
 
 @media (max-width: 1200px) {
@@ -480,7 +480,7 @@ header
   }
   .header-area.header-sticky .nav li a:hover,
   .header-area.header-sticky .nav li a.active {
-    color: #478551!important;
+    color: #28285B!important;
     opacity: 1;
   }
   .header-area {
@@ -517,15 +517,15 @@ header
   }
   .header-area .main-nav .nav li:last-child {
     width: 100%;
-    background-color: #478551;
+    background-color: #28285B;
     color: #fff;
   }
   .header-area .main-nav .nav li:last-child a {
-    background-color: #478551!important;
+    background-color: #28285B!important;
   }
   .header-area .main-nav .nav li:last-child a:hover,
   .header-area .main-nav .nav li:last-child:hover a {
-    background-color: #478551!important;
+    background-color: #28285B!important;
     color: #fff!important;
   }
   .header-area.header-sticky .nav {
@@ -551,7 +551,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #478551!important;
+    color: #28285B!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -656,7 +656,7 @@ banner
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #478551;
+  color: #28285B;
   font-weight: 900;
 }
 
@@ -709,7 +709,7 @@ features
   display: inline-block;
   font-size: 13px;
   text-transform: uppercase;
-  color: #478551;
+  color: #28285B;
   font-weight: 500;
 }
 
@@ -752,7 +752,7 @@ offer
   display: inline-block;
   font-size: 13px;
   text-transform: uppercase;
-  color: #478551;
+  color: #28285B;
   font-weight: 500;
 }
 
@@ -781,7 +781,7 @@ subscribe
 
 .cta-content h2 em {
   font-style: normal;
-  color: #478551;
+  color: #28285B;
 }
 
 .cta-content p {
@@ -839,7 +839,7 @@ Our Classes
   font-size: 19px;
   letter-spacing: 0.5px;
   font-weight: 600;
-  background-color: #478551;
+  background-color: #28285B;
 }
 #tabs .main-rounded-button a:hover {
   background-color: #60A96C;
@@ -855,7 +855,7 @@ Our Classes
   border-bottom: none;
 }
 #tabs ul .ui-tabs-active a {
-  color: #478551;
+  color: #28285B;
 }
 #tabs ul .ui-tabs-active span {
   color: #1e1e1e;
@@ -973,7 +973,7 @@ schedule
 }
 #schedule .filters ul li.active,
 #schedule .filters ul li:hover {
-  color: #478551;
+  color: #28285B;
 }
 #schedule .filters-content {
   margin-top: 50px;
@@ -1011,7 +1011,7 @@ trainers
 #trainers .trainer-item span {
   font-size: 13px;
   font-weight: 500;
-  color: #478551;
+  color: #28285B;
   display: inline-block;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -1044,7 +1044,7 @@ trainers
 }
 
 #trainers .trainer-item ul.social-icons li a:hover {
-  color: #478551;
+  color: #28285B;
 }
 
 
@@ -1116,7 +1116,7 @@ contact
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: #478551;
+  background-color: #28285B;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -1151,11 +1151,11 @@ footer p {
 
 footer p a {
   cursor: pointer;
-  color: #478551;
+  color: #28285B;
 }
 
 footer p a:hover {
-  color: #478551;
+  color: #28285B;
 }
 
 
